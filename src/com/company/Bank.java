@@ -198,7 +198,6 @@ public class Bank {
                                 current_balance = checkBalance(name_account);
                                 System.out.println(amounts_for_transfer);
                                 System.out.println(current_balance);
-
                                 if (current_balance < amounts_for_transfer) {
                                     System.out.println("Insufficient funds for the operation\n Enter the correct amount");
                                     hasCorrect = true;
